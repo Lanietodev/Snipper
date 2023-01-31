@@ -16,7 +16,7 @@ body{
   margin: 0 auto;
 }
 .container{
-  background-image: url(assets/Background.png);
+  background-image: url(Assets/Background.png);
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
