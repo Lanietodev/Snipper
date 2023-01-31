@@ -1,0 +1,279 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  height: 100%;
+}
+.desktop{
+  display:none;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.main{
+  margin: 0 auto;
+}
+.container{
+  background-image: url(assets/Background.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size:100% 100%;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.5rem 1.25rem;
+}
+.upper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bottom img{
+  height: 9.375rem;
+  width: 90%;
+  margin-bottom: -.3125rem;
+}
+.top{
+  margin-bottom: 1.875rem;
+}
+h1{
+  font-size: 14vw;
+  font-weight: 800;
+}
+p{
+  opacity: .9;
+  margin: .75rem 0;
+}
+.top p:first-of-type{
+  padding: 0 1.875rem;
+  line-height: 1.4;
+}
+button{
+  background-color: black;
+  border: none;
+  color: white;
+  width: 90%;
+  padding: 1.25rem;
+  border-radius: .3125rem;
+  font-size: 1.0625rem;
+}
+button span{
+  opacity: .5;
+}
+.lower{
+  margin: 3.75rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.one img{
+  height: 70vw;
+  margin-bottom: 1.5625rem;
+  overflow: hidden;
+}
+.lower .two{
+  width: 90%;
+}
+.lower h2{
+  font-size: 9.1vw;
+}
+.lower button{
+  width: 65%;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1.875rem;
+}
+.tandc{
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width:768px) {
+
+  .desktop{
+    display: block;
+    margin-right: .9375rem;
+  }
+  h3{
+    width: 9.375rem;
+    font-weight: 300;
+    text-align: center;
+  }
+  .hamburger{
+    display: none;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+  }
+  header{
+    margin: 2.5rem 3.75rem;
+  }
+  .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.75rem;
+  }
+  h1{
+    font-size: 6vw;
+    width: 31.25rem;
+}
+.top p:first-of-type{
+  font-size: 1.2rem;
+}
+.top button{
+  width: 35%;
+}
+.bottom img{
+  height: 100%;
+}
+.one img{
+  height: 60vw;
+}
+.lower h2{
+  font-size: 5vw;
+}
+.lower button{
+  width: 30%;
+}
+footer{
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.tandc{
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
+  letter-spacing: .0625rem;
+}
+}
+@media (min-width:900px) {
+
+  h1{
+    font-size: 6rem;
+    font-weight: 800;
+  }
+
+  .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.75rem;
+  }
+  .top p:first-of-type{
+    font-size:2rem;
+  }
+  p{
+    font-size: 2rem;
+  }
+  .footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  footer{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-img{
+    justify-self: start;
+    width:90vw;
+  }
+  .footer-img img{
+    height: 3.125rem;
+  }
+  .tandc{
+    width: 90vw;
+  }
+
+}
+@media (min-width:1200px) {
+  header{
+    margin: 2.5rem 9.375rem;
+  }
+  h1{
+    font-size: 3rem;
+    font-weight: 800;
+    width: 100%;
+  }
+  .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.75rem;
+    width: 60%;
+  }
+  .top p:first-of-type{
+    font-size:1.1rem;
+  }
+
+  .top p:last-of-type{
+    font-size:1.1rem;
+  }
+  .bottom img{
+    width: 80%;
+    margin-bottom: -.3125rem;
+  }
+  .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lower{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+  }
+  .one img{
+    height: 30vw;
+  }
+  .two h2{
+    font-size: 2.3rem;
+  }
+  .two p{
+    font-size: 1.1rem;
+  }
+  .two button{
+    width: 16vw;
+  }
+  .footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer{
+    width: 80vw;
+    flex-direction: row;
+  }
+  .footer-img img{
+    height: 1.875rem;
+  }
+  footer p{
+    font-size: 1rem;
+  }
+  .tandc{
+    width: 45vw;
+  }
+}
