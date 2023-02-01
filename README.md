@@ -14,7 +14,7 @@ For design files, check [here](https://www.codewell.cc/challenges/snipper-landin
 
 ![Snipper Destop view](Design/desktop-view.png)
 ![Snipper Mobile view](Design/mobile-view.png)
-![Snipper Tablet view](Design/tab-view.png)
+![Snipper Tablet view](Design/Tab-view.png)
 
 
 
