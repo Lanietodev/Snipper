@@ -12,9 +12,9 @@ Users should be able to:
 
 For design files, check [here](https://www.codewell.cc/challenges/snipper-landing-page--608bbe67e0984a001540d79b)
 
-![Snipper Destop view](Design/Landing Page - Desktop View.png)
-![Snipper Mobile view](Design/Landing Page - Mobile View.png)
-![Snipper Tablet view](Design/Landing Page - Tablet View.png)
+![Snipper Destop view](Design/desktop-view.png)
+![Snipper Mobile view](Design/mobile-view.png)
+![Snipper Tablet view](Design/tab-view.png)
 
 
 
