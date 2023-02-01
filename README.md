@@ -11,8 +11,11 @@ Users should be able to:
 ### Design
 
 For design files, check [here](https://www.codewell.cc/challenges/snipper-landing-page--608bbe67e0984a001540d79b)
+
 ![Snipper Destop view](Landing Page - Desktop View.png)
+
 ![Snipper Mobile view](Landing Page - Mobile View.png)
+
 ![Snipper Tablet view](Landing Page - Tablet View.png)
 
 
