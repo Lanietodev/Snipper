@@ -68,6 +68,13 @@ button{
 button span{
   opacity: .5;
 }
+button:hover{
+  cursor: pointer;
+  background-color: white;
+  color:black;
+  border: 1px solid black;
+  padding: 1.19rem;
+}
 .lower{
   margin: 3.75rem 0;
   display: flex;
